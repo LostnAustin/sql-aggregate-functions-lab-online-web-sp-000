@@ -1,21 +1,21 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  puts "SELECT MAX(gpa) FROM students"
+   "SELECT MAX(gpa) FROM students"
 end
 
 def lowest_student_gpa
-  puts "SELECT MIN(gpa) FROM students"
+   "SELECT MIN(gpa) FROM students"
 end
 
 def average_student_gpa
-  puts "SELECT AVG(gpa) FROM students"
+   "SELECT AVG(gpa) FROM students"
 end
 
 def total_tardies_for_all_students
-  puts "SELECT SUM(tardies) FROM students"
+   "SELECT SUM(tardies) FROM students"
 end
 
 def average_gpa_for_9th_grade
-  puts "SELECT AVG(gpa) FROM students WHERE grade = 9"
+   "SELECT AVG(gpa) FROM students WHERE grade = 9"
 end
